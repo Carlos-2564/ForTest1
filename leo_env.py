@@ -39,7 +39,7 @@ class LEOSatEnv:
         self.fc = 20e9  # 载波频率 20 GHz
         self.bandwidth = 200e6  # 带宽 200 MHz (Hz)
         self.total_power = 120  # 星上总功率 120 W
-        self.max_beam_power = 60  # 单波束最大功率 60 W
+        self.max_beam_power =       60  # 单波束最大功率 60 W
         self.G_t = 40  # 卫星发射天线增益 (dB)
         self.G_r = 50  # 用户接收天线增益 (dB)
         self.slot_duration = 0.01  # 10 ms (秒)  跳波束时隙长度10ms
